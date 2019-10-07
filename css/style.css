@@ -1,0 +1,132 @@
+@import 'reset/css';
+
+
+img{
+    width: 100%;
+   
+}
+
+.nametag{
+    width:200px;
+    height:80px;
+    position:fixed;
+    top:0;
+    right:20;
+}
+
+.margining{
+    padding-top:130%;
+}
+
+.lesswidth{
+    width: 50%;
+}
+
+.slider-image{
+    float:left;
+    margin: 0px;
+    padding:0px; 
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+.alarm{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:2%;
+    color: #e50000;
+    margin-top:-200px;
+    padding-bottom:100px;
+    padding-bottom:-200px;
+    position:sticky;
+    top:5px;
+    display: block;
+    z-index: -100;
+}
+
+
+
+.snacks{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:25%;
+    position: sticky;
+    top: 0;
+    color: #e50000;
+    top:5px;
+    z-index: -100;
+}
+
+
+
+.yakult{
+   font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:35%;
+    position: sticky;
+    top: 0;
+    color: #e50000;
+    top:5px;
+    z-index: -100;    
+}
+
+.sausage{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:38%;
+    position: sticky;
+    top: 0;
+    color: #e50000;
+    top:5px;
+    z-index: -100;
+}
+
+.trash{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:20%;
+    position: sticky;
+    top: 0;
+    color: #e50000;
+    top:5px;
+    z-index: -100;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    
+	display: block;
+	float:left;
+	margin: 0% 0 0% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.66%; }
+.span_1_of_3 { width: 33.33%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 768px) {
+	.col {  margin: 0px 0 1px 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+.carousel-cell {
+  width: 38%; /* full width */
+  height: 800px; /* height of carousel */
+  margin-right: 10px;
+}
