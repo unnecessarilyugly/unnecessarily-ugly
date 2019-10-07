@@ -1,9 +1,26 @@
 @import 'reset/css';
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 img{
     width: 100%;
    
+}
+
+/* enable Flickity by default */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+@media screen and (max-width : 480px) {
+  /* disable Flickity for mobile devices */
+  .carousel:after {
+    content: '';
+  }
 }
 
 .nametag{
