@@ -61,7 +61,16 @@ img{
     z-index: -100;
 }
 
-
+.mike{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 80px;
+    margin-left:10%;
+    color: #e50000;
+    position:sticky;
+    top:5px;
+    display: block;
+    z-index: -100;
+}
 
 .snacks{
     font-family: 'Noto Serif TC', serif;
