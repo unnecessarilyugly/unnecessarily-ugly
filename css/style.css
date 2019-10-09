@@ -10,6 +10,10 @@ img{
    
 }
 
+html,body {
+overflow-x: hidden;
+}
+
 /*nametag appears at bottom on mobile*/
 @media only screen and (min-width: 768px) {
     .nametag {width:200px;
@@ -17,7 +21,6 @@ img{
     position:fixed;
     top:5;
     right:20;}
-    
 }
 
 .nametag{
@@ -40,8 +43,8 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-  height:800px;
+  width: device-width;
+  height:device-height;
 }
 
 .slider-image{
