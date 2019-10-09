@@ -169,27 +169,4 @@ img{
     
 }
 
-.carousel-cell {
-  width: 38%; /* full width */
-  height: 800px; /* height of carousel */
-  margin-right: 10px;
-}
-
-.carousel {
-    z-index: -100;
-}
-
-/* enable Flickity by default */
-.carousel:after {
-  content: 'flickity';
-  display: none; /* hide :after */
-}
-
-@media screen and (max-device-width : 768px) {
-  /* disable Flickity for mobile devices */
-  .carousel:after {
-    content: '';
-  }
-}
-
 }
