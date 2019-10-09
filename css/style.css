@@ -15,12 +15,15 @@ overflow-x: hidden;
 }
 
 /*nametag appears at bottom on mobile*/
+/*eleven gif is not full width on desktop*/
 @media only screen and (min-width: 768px) {
     .nametag {width:200px;
     height:80px;
     position:fixed;
     top:5;
     right:20;}
+    .center {width:600px;
+        height:800px;}
 }
 
 .nametag{
