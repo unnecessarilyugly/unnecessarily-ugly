@@ -77,15 +77,6 @@ h2{
 }
 
 
-h3{
-    font-family: 'Abril Fatface', cursive;
-    transform: skew(-15deg, 0deg);
-    color: #e50000;
-    font-size:25px;
-    text-align:left;
-    letter-spacing: 2.5px;
- }
-
 header{
     position: fixed;
     display: block;
