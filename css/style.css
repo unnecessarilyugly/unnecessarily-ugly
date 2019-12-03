@@ -58,87 +58,59 @@ overflow-x: hidden;
 }
 
 
-.alarm{
-    font-family: 'Noto Serif TC', serif;
+h1{
+    font-family:'Noto Serif TC', serif;
     font-size: 80px;
-    margin-left:2%;
     color: #e50000;
-    margin-top:-200px;
-    padding-bottom:100px;
-    padding-bottom:-200px;
-    position:sticky;
-    top:5px;
+    text-align: center;
+    display: block;   
+}
+
+h2{
+    font-family: 'Abril Fatface', cursive;
+    transform: skew(-15deg, 0deg);
+    color: #e50000;
+    font-size:25px;
+    text-align: center;
     display: block;
-    z-index: -100;
+     letter-spacing: 2.5px;
 }
 
-.mike{
-    font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:10%;
+
+h3{
+    font-family: 'Abril Fatface', cursive;
+    transform: skew(-15deg, 0deg);
     color: #e50000;
-    position:sticky;
-    top:5px;
+    font-size:25px;
+    text-align:left;
+    letter-spacing: 2.5px;
+ }
+
+header{
+    position: fixed;
     display: block;
-    z-index: -100;
-}
-
-.snacks{
-    font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:25%;
-    position: sticky;
-    top: 0;
+    z-index: 500;
+    font-family: 'Abril Fatface', cursive;
+    transform: skew(-15deg, 0deg);
     color: #e50000;
-    top:5px;
-    z-index: -100;
+    font-size:25px;
+    display: block;
+    letter-spacing: 2.5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    
+}
+
+.alignright{
+    width:450px;
+    height: 125px;
+    float: right;
+    position: absolute;;
+    right: 0;
+    bottom: 0;
 }
 
 
-
-.yakult{
-   font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:35%;
-    position: sticky;
-    top: 0;
-    color: #e50000;
-    top:5px;
-    z-index: -100;    
-}
-
-.sausage{
-    font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:38%;
-    position: sticky;
-    top: 0;
-    color: #e50000;
-    top:5px;
-    z-index: -100;
-}
-
-.trash{
-    font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:20%;
-    position: sticky;
-    top: 0;
-    color: #e50000;
-    top:5px;
-    z-index: -100;
-}
-
-.eleven{
-    font-family: 'Noto Serif TC', serif;
-    font-size: 80px;
-    margin-left:65%;
-    position: sticky;
-    top: 0;
-    color: #e50000;
-    top:5px;
-    z-index: -100;
-}
 
 /*  SECTIONS  */
 .section {
@@ -173,6 +145,21 @@ overflow-x: hidden;
 	.col {  margin: 0px 1px 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
     
+
+h1{
+    font-size: 60px;
 }
+
+.rightt{
+    width:450px;
+    height: 125px;
+    float: center;
+    position: absolute;;
+/*    right: 0;*/
+left: 0;
+    bottom: 0;
+}
+
+/*before dis*/
 
 }
