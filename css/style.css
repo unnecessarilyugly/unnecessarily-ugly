@@ -141,16 +141,13 @@ h1{
     font-size: 60px;
 }
 
-.rightt{
+ .alignright{
     width:450px;
     height: 125px;
-    float: center;
+    float: right;
     position: absolute;;
-/*    right: 0;*/
-left: 0;
+    right: 0;
     bottom: 0;
 }
-
-/*before dis*/
 
 }
