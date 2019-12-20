@@ -142,7 +142,7 @@ h1{
 }
 
  .alignright{
-    position: absolute;
+    position: fixed;
     float: right; 
 }
 
