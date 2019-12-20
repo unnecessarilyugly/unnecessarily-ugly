@@ -144,7 +144,7 @@ h1{
  .alignright{
     float:right;
     position:absolute;
-    padding:10px;
+    overflow:auto;
 }
 
 }
