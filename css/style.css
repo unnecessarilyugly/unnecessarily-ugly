@@ -144,8 +144,7 @@ h1{
  .alignright{
     width:450px;
     height: 125px;
-    float: right;
-    position: absolute;;
+    position: fixed;
     right: 0;
     bottom: 0;
 }
