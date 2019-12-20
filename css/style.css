@@ -142,9 +142,9 @@ h1{
 }
 
  .alignright{
-    float:right;
+    text-align:right;
     position:absolute;
-    overflow:auto;
+
 }
 
 }
