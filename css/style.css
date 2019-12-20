@@ -143,9 +143,11 @@ h1{
 
  .alignright{
     position: absolute;
+    width:450px;
     float: right;
+    right:5;
     bottom:0;
-    right:0;
+    
 
 }
 
