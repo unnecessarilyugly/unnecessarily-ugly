@@ -142,8 +142,12 @@ h1{
 }
 
  .alignright{
-    text-align:right;
-    position:absolute;
+     width:450px;
+    height: 125px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 }
 
