@@ -142,6 +142,7 @@ h1{
 }
 
 .alignright {
+    overflow:auto;
     position: absolute;
     float: right;
     bottom:0;
