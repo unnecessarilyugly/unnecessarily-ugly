@@ -142,12 +142,8 @@ h1{
 }
 
  .alignright{
-     width:450px;
-    height: 125px;
-    float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position:absolute;
+    float:right;
 
 
 }
