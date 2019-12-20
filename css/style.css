@@ -142,8 +142,9 @@ h1{
 }
 
  .alignright{
-    position: fixed;
-    float: right; 
+    float:right;
+    position:absolute;
+    padding:10px;
 }
 
 }
