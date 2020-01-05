@@ -100,9 +100,6 @@ header{
     right: 0;
     bottom: 0;
 }
-
-
-
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -140,13 +137,13 @@ header{
 h1{
     font-size: 60px;
 }
-
 .alignright {
     overflow:auto;
     position: absolute;
     float: right;
     bottom:0;
     right:0;
+    text-indent: 10%;
 
 }
 
