@@ -73,13 +73,21 @@ h2{
     font-size:25px;
     text-align: center;
     display: block;
-     letter-spacing: 2.5px;
+    letter-spacing: 2.5px;
 }
 
+h3{
+    font-family: 'Abril Fatface', cursive;
+    transform: skew(-15deg, 0deg);
+    color: #e50000;
+    font-size:25px;
+    letter-spacing: 2.5px;
+    text-align: right; 
+}
 
 header{
     position: fixed;
-    display: block;
+    display: none;
     z-index: 500;
     font-family: 'Abril Fatface', cursive;
     transform: skew(-15deg, 0deg);
@@ -138,12 +146,9 @@ h1{
     font-size: 60px;
 }
 .alignright {
-    overflow:auto;
-    position: absolute;
-    float: right;
-    bottom:0;
-    right:0;
-    text-indent: 10%;
+    position: relative;
+    top:615;
+    left:30;
 
 }
 
