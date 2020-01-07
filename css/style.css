@@ -145,10 +145,11 @@ header{
 h1{
     font-size: 60px;
 }
+
 .alignright {
     position: relative;
-    top:615;
-    left:30;
+    top:785;
+    left:35;
 
 }
 }
